@@ -1,0 +1,64 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.software {
+		border: 1px solid #666; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 17px;
+	font-weight: bold;
+	color:white;
+	font-family:century gothic;
+	width: 250px; 
+	padding: 5px 10px; 
+	height: 60px;
+	text-align: center;
+	margin-bottom: 15px;
+	background: #234d6f;
+	
+}
+ .GFG {
+            color: white;
+           
+            -webkit-text-stroke-width: 20px;
+            -webkit-text-stroke-color: black;
+        }
